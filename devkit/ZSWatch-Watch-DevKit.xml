@@ -2,21 +2,21 @@
 <export version="E">
   <design>
     <source>/__w/Watch-DK-HW/Watch-DK-HW/devkit/ZSWatch-Watch-DevKit.kicad_sch</source>
-    <date>2025-09-06T18:02:51+0000</date>
+    <date>2025-09-06T19:19:37+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Watch-DevKit-HW</textvar>
     <textvar name="COMPANY">ZSWatch</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">cbe73d0</textvar>
-    <textvar name="GIT_HASH_SCH">cbe73d0</textvar>
+    <textvar name="GIT_HASH_PCB">b5079aa</textvar>
+    <textvar name="GIT_HASH_SCH">b5079aa</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/Watch-DevKit-HW</textvar>
     <textvar name="PROJECT_NAME">ZSWatch Watch-DevKit</textvar>
     <textvar name="RELEASE_BODY_1.3.0">Version 1.3.0 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">05-Sep-2025</textvar>
-    <textvar name="RELEASE_DATE_NUM">2025-09-05</textvar>
+    <textvar name="RELEASE_DATE">06-Sep-2025</textvar>
+    <textvar name="RELEASE_DATE_NUM">2025-09-06</textvar>
     <textvar name="RELEASE_TITLE_1.3.0">Version 1.3.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION"/>
@@ -60,7 +60,7 @@
     <textvar name="SHEET_NAME_7">Power - Sequencing</textvar>
     <textvar name="SHEET_NAME_8">Revision History</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ZSWatch-Watch-DevKit</title>
