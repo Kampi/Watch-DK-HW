@@ -1,87 +1,47 @@
-# ZSWatch Hardware
+# ZSWatch-Watch-DevKit
 
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/license/gpl-3-0/)
-![Badge](https://github.com/jakkra/zswatch-hw/actions/workflows/production.yml/badge.svg?color=yellow)
 
-> [!NOTE]
-> This is the release branch with tested PCB files.<br>
-> For hardware development branch go to [ZSWatch-HW/tree/2.0.6_Dev](https://github.com/jakkra/ZSWatch-HW/tree/2.0.6_Dev).<br>
-> For production files pick the [latest run here](https://github.com/jakkra/ZSWatch-HW/actions?query=event%3Apull_request_target) and scroll down to artifacts and pick `Watch`<br>
-> Although tested, there may still be unknown issues not yet discovered and ordering ZSWatch PCBs are on your own risk.
+## 📑 Table of Contents
 
-## Table of Content
-
-- [ZSWatch Hardware](#zswatch-hardware)
-  - [Table of Contents](#table-of-contents)
-  - [About](#about)
-  - [Dock connector](#dock-connector)
-  - [Directory structure](#directory-structure)
+- [ZSWatch-Watch-DevKit](#zswatch-watch-devkit)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [📖 About](#-about)
+  - [📂 Directory Breakdown](#-directory-breakdown)
   - [Purchasing](#purchasing)
-  - [Maintainer](#maintainer)
+  - [👨‍💻 Maintainer](#-maintainer)
 
-## About
+## 📖 About
 
-Hardware repository for the [ZSWatch](https://github.com/jakkra/ZSWatch).
+The **ZSWatch-Watch-DevKit** project provides the hardware design and production files for a smartwatch development board tailored to the ZSWatch ecosystem.
+It is built with **KiCad** and integrates a full **CI/CD pipeline** using **KiBot**, ensuring reproducible outputs for documentation, manufacturing, and releases.
 
-![PCB Top side](/docs/images/Image_Complete.png)
+Key features:
 
-Please check the [wiki](https://github.com/jakkra/ZSWatch/wiki) for more information about the project.
+- 🛠️ Open-source hardware design
+- 📦 Automated generation of Gerber, BoM, and documentation via KiBot
+- 🔄 Workflow stages (DRAFT → PRELIMINARY → CHECKED → RELEASED) for structured releases
+- 📝 Clear documentation and changelog to track progress
+- 🌍 Designed with collaboration and transparency in mind
 
-## Dock connector
+![Complete](/production/heartrate-dk/Images/_top.png)
 
-The pinout for the dock connector is shown below.
+Please check the [wiki](https://github.com/ZSWatch/ZSWatch/wiki) for more information about the project.
 
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky">Pin</th>
-    <th class="tg-0pky">Description</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky" rowspan="5"><img src="docs/images/Dock-Connector.png" alt="Dock connector"></td>
-    <td class="tg-0pky">1</td>
-    <td class="tg-0pky">VBUS (+5 V)</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">2</td>
-    <td class="tg-0pky">GND</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">3</td>
-    <td class="tg-0pky">SEL</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">4</td>
-    <td class="tg-0lax">D- / SWDIO</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">5</td>
-    <td class="tg-0lax">D+ / SWDCLK</td>
-  </tr>
-</tbody>
-</table>
+## 📂 Directory Breakdown
 
-| SEL  | Function       |
-|------|----------------|
-|`LOW` | USB            |
-|`HIGH`| SWD (Default)  |
-
-## Directory structure
-
-- `cad`: 3D model of the complete PCB
-- `docs`: All kinds of project documentation like schematics, BOM, etc.
-  - `drawings`: 2D drawings for subcomponents, etc.
-  - `images`
-- `project`: KiCad project for the PCB
+- **`.github`**: GitHub related files
+- **`.gitignore`**: Ignored files list
+- **`devkit`**: KiCad project for the devkit
+- **`production/PCBWay`**: Manufacturing outputs (Gerbers, etc.) for PCBWay
+- **`CHANGELOG.md`**: Version history
+- **`LICENSE`**: Project license (GPL-3.0)
+- **`README.md`**: Project overview
 
 ## Purchasing
 
-Please open `ZSWatch-navigate.html` and use the files listed under `purchasing` for ordering a PCB.
+TBD
 
-## Maintainer
+## 👨‍💻 Maintainer
 
-- [Daniel Kampert](mailto:daniel.kameprt@kampis-elektroecke.de)
-- [Jakob Krantz](mail@jakobkrantz.se)
+- [Daniel Kampert](mailto:danielkameprt@kampis-elektroecke.de)
