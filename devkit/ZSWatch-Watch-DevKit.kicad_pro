@@ -902,7 +902,7 @@
     "COMPANY": "ZSWatch",
     "DESIGNER": "Daniel Kampert",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "c205610",
+    "GIT_HASH_PCB": "b9ae5f7",
     "GIT_HASH_SCH": "c205610",
     "GIT_URL": "https://github.com/ZSWatch/Watch-DevKit-HW",
     "PROJECT_NAME": "ZSWatch Watch-DevKit",
@@ -953,6 +953,6 @@
     "SHEET_NAME_7": "Revision History",
     "SHEET_NAME_8": "......................................",
     "SHEET_NAME_9": "......................................",
-    "VARIANT": "RELEASED"
+    "VARIANT": "CHECKED"
   }
 }
